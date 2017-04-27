@@ -1,0 +1,17 @@
+Package: FARS
+Type: Package
+Title: Provides tools for mapping accident data from FARS
+Version: 0.1.0
+Author: attackgnome
+Maintainer: attackgnome <12345@gmail.com>
+Description: Provides functions to read in FARS data in .csv format, read in the data for individual or a series of years
+            summarize the number of accidents on per year/month, and plot the data for a specified year or series of years
+            on a state basis
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 0.12.10)
+LinkingTo: Rcpp
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
